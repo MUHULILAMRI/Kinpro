@@ -1,0 +1,44 @@
+# Data file
+Data Pegawai Bapekom.csv
+
+# Presentasi
+PRESENTASI.MD
+PRESENTASIII.MD
+
+# Archive
+sikinerja.rar
+
+# Database / SQL files
+*.sql
+
+# Error log
+error
+
+# Upload files (user data)
+uploads/*.jpg
+uploads/*.png
+uploads/*.jpeg
+uploads/profil_*
+uploads/1*
+uploads/pengaduan/*.png
+uploads/pengaduan/*.jpg
+uploads/pengaduan/*.jpeg
+uploads/pengajar/*.jpg
+uploads/pengajar/*.png
+uploads/mitigapro/
+
+# Keep folder structure with .htaccess
+!uploads/.htaccess
+!uploads/pengaduan/.htaccess
+
+# IDE / Editor
+.sixth/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

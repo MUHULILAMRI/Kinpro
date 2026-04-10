@@ -1,0 +1,6 @@
+Options -ExecCGI
+AddHandler cgi-script .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .aspx .htm .html .shtml
+RemoveHandler .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .aspx .htm .html .shtml
+<IfModule mod_php.c>
+php_flag engine off
+</IfModule>
